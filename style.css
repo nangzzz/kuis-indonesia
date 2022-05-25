@@ -46,7 +46,7 @@ body{
     padding: 15px 30px;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #ff6961;
     cursor: pointer;
 }
@@ -155,7 +155,6 @@ body{
     font-weight: 500;
     font-size: 17px;
     user-select: none;
-    align-items: center;
 }
 
 .quiz_box header .timer .timer_sec{
