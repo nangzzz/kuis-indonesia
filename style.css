@@ -10,7 +10,7 @@
 body{
     background-image: url("/img/background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 ::selection{
@@ -42,12 +42,12 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #007bff;
+    color: #fff;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: #ff6961;
     cursor: pointer;
 }
 
@@ -138,22 +138,24 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: #000;
+    font-weight: 500;
+    background: #ff6961;
+    border: 1px solid #ff6961;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 180px;
 }
 
 .quiz_box header .timer .time_left_txt{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 17px;
     user-select: none;
+    align-items: center;
 }
 
 .quiz_box header .timer .timer_sec{
@@ -161,12 +163,12 @@ body{
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #fff;
+    border: 1px solid #fff;
     user-select: none;
 }
 
@@ -175,7 +177,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #ff6961;
 }
 
 section{

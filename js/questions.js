@@ -2,57 +2,57 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Nama pertama DKI Jakarta Adalah ...",
+    answer: "Sunda Kelapa",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Stad Batavia",
+      "Jayakarta",
+      "Sunda Kelapa",
+      "Batavia"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Ibukota Provinsi Jawa Tengah Adalah ...",
+    answer: "Semarang",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Solo",
+      "Surakarta",
+      "Yogyakarta",
+      "Semarang"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Apa arti sebernarnya dari Gudeg?",
+    answer: "Mengaduk",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Santan",
+      "Uleg Nasi",
+      "Nangka",
+      "Mengaduk"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "saat melawan sekutu, jepang lama kelamaan mengalami kekalahan hingga akhirnya menyatakan menyerah kepada sekutu pada tanggal ...",
+    answer: "15 Agustus 1945",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "6 Agustus 1945",
+      "11 Agustus 1945",
+      "15 Agustus 1945",
+      "16 Agustus 1945"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Soekarno-Hatta diamankan ke rengasdengklok atas hasil rapat pemuda yang diselenggarakan di ...",
+    answer: "Lembaga Bakteriologi",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Lembaga Bakteriologi",
+      "Markas besar kompi PETA",
+      "Asrama Baperpi",
+      "Gedung Rengasdengklok"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
