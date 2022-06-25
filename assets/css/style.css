@@ -50,7 +50,6 @@ body{
   }
   
   .container .card:after{
-    content: 'TWK';
     position: absolute;
     top: 30%;
     left: -20%;
@@ -59,7 +58,26 @@ body{
     font-style: italic;
     color: rgba(255,255,25,0.05)
   }
+
+  /* background text setting start */
+  .container .card.bg-text-1:after{
+    content: 'TWK';
+  }
+
+  .container .card.bg-text-2:after{
+    content: 'UMUM';
+  }
   
+  .container .card.bg-text-3:after{
+    content: 'BLANK';
+  }
+
+  .container .card.bg-text-4:after{
+    content: 'BLANK';
+  }
+  /* background text setting end */
+
+
   .container .card .logo{
     position: absolute;
     top: 50%;
