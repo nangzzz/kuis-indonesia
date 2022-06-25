@@ -50,7 +50,7 @@ body{
   }
   
   .container .card:after{
-    content: 'Nike';
+    content: 'TWK';
     position: absolute;
     top: 30%;
     left: -20%;
