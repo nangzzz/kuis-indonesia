@@ -20,7 +20,7 @@ let questions = [
     options: [
       "Kitab Sutasoma karangan Mpu Kanwa",
       "Kitab Bharatayuddha karangan Mpu Sedah",
-      "Kitab Sutasoma karangan Mpu Tantular",
+      "Kitab Hariwangsa karangan Mpu Panuluh",
       "Kitab Sutasoma karangan Mpu Tantular",
       "Kitab Negarakertagama karangan Mpu Prapanca"
     ]

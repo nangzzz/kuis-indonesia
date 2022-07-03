@@ -164,7 +164,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>yahahaha 🤣, kamu hanya dapat <p>'+ userScore +'</p> dari <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>yahahaha 🤣, kamu cuma dapat <p>'+ userScore +'</p> dari <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
