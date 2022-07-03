@@ -1,0 +1,88 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengetahuan Umum | Kuis Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn">
+        <button>Mulai</button>
+    </div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title">
+            <span>petunjuk pengerjaan soal</span>
+        </div>
+        <div class="info-list">
+            <ol type="1">
+                <li>kamu hanya memiliki <span>15 detik</span> untuk menjawab satu pertanyaan.</li>
+                <li>Setelah anda memilih jawaban, sudah tidak dibatalkan.</li>
+                <li>Kamu tidak bisa memilih jawaban ketika waktu habis.</li>
+                <li>Kamu tidak bisa keluar dari kuis ketika sedang menjawab pertanyaan.</li>
+                <li>Kamu akan mendapatkan point dari jawaban yang benar.</li>
+            </ol>
+        </div>
+        <div class="buttons">
+            <button class="quit">Keluar</button>
+            <button class="restart">Lanjut <i class="fa-solid fa-angles-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Pengetahuan Umum</div>
+            <div class="timer">
+                <div class="time_left_txt">Sisa Waktu</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">lanjut</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="complete_text">Kamu sudah menyelesaikan kuis!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
